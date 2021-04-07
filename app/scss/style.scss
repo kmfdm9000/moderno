@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+.box {
+  font-size: 12px;
+  border-bottom: 1px solid #000;
+  background-origin: padding-box;
+}
+body {
+  border: 10px solid black;
+}
